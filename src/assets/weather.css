@@ -181,3 +181,116 @@ code {
     transform: rotate(1turn);
   }
 }
+
+/* Added here Responsiveness Code */
+/* ================= RESPONSIVE DESIGN ================= */
+
+/* Tablet */
+@media (max-width: 1024px) {
+
+  .body-main{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .first-div{
+    width: 80%;
+    height: auto;
+  }
+
+  .second-div{
+    width: 80%;
+    min-width: auto;
+    border-radius: 20px;
+  }
+
+  .sun i{
+    margin-top: 50px;
+  }
+
+}
+
+
+/* Mobile */
+@media (max-width: 768px){
+
+  .head{
+    font-size: 2rem;
+    padding: 20px;
+  }
+
+  .body-main{
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  .first-div{
+    width: 90%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .second-div{
+    width: 90%;
+    min-width: auto;
+    padding: 20px;
+  }
+
+  .day{
+    font-size: 1.8rem;
+  }
+
+  .celcius{
+    font-size: 2rem;
+  }
+
+  .sun i{
+    font-size: 50px;
+    margin-top: 30px;
+  }
+
+  .weather-type{
+    font-size: 1.4rem;
+  }
+
+  .heading-div2{
+    font-size: 1.2rem;
+  }
+
+  .second-div p{
+    font-size: 1.2rem;
+  }
+
+  .main{
+    margin-top: 40px;
+    width: 100%;
+  }
+
+}
+
+
+/* Small Mobile */
+@media (max-width: 480px){
+
+  .head{
+    font-size: 1.5rem;
+  }
+
+  .day{
+    font-size: 1.5rem;
+  }
+
+  .celcius{
+    font-size: 1.7rem;
+  }
+
+  .weather-type{
+    font-size: 1.2rem;
+  }
+
+  .sun i{
+    font-size: 40px;
+  }
+
+}
