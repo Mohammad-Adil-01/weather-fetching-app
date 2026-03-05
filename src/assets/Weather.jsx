@@ -1,5 +1,5 @@
 import { useEffect, useState, useMemo } from "react";
-import "../assets/Weather.css";
+import "../assets/weather.css";
 export default function Weather() {
   let dates = new Date();
   let date = dates.getDate();
