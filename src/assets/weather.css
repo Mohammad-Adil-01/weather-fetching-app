@@ -1,0 +1,183 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    Segoe UI,
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    Fira Sans,
+    Droid Sans,
+    Helvetica Neue,
+    sans-serif;
+  margin: 0;
+}
+code {
+  font-family:
+    source-code-pro,
+    Menlo,
+    Monaco,
+    Consolas,
+    Courier New,
+    monospace;
+}
+.App {
+  text-align: center;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin 20s linear infinite;
+  }
+}
+.App-header {
+  align-items: center;
+  background-color: #282c34;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  justify-content: center;
+  min-height: 100vh;
+}
+.App-link {
+  color: #61dafb;
+}
+@keyframes App-logo-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(1turn);
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.head {
+  background: url(https://png.pngtree.com/thumb_back/fh260/background/20260129/pngtree-partly-cloudy-sun-thunderstorm-weather-forecast-illustration-design-image_21209888.webp);
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-position: 50%;
+  background-size: cover;
+  color: #f5f5f5;
+  color: #0000;
+  font-family: Montserrat, sans-serif;
+  font-size: 3em;
+  font-weight: 600;
+  padding: 1.5% 0 0;
+  text-align: center;
+}
+.body,
+.head {
+  background-color: #061a1e;
+}
+.body {
+  height: 100vh;
+  padding: 1% 0 0;
+}
+.body-main {
+  align-items: center;
+  background-color: #061a1e;
+  display: flex;
+  justify-content: center;
+  margin: 3% 0 0;
+}
+.first-div {
+  animation: div 15s linear 0.9s infinite;
+  background-clip: initial;
+  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/018/988/424/small/bright-blue-sunshine-background-with-sun-and-clounds-flat-illustration-vector.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  color: #143d3d;
+  height: 500px;
+  opacity: 100%;
+  padding: 2%;
+  width: 370px;
+}
+@keyframes div {
+  0% {
+  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/018/988/424/small/bright-blue-sunshine-background-with-sun-and-clounds-flat-illustration-vector.jpg");
+    color: #143d3d;
+  }
+  50% {
+    background-image: url("https://media.gettyimages.com/id/1202250733/photo/blue-sky-and-white-clouds-background-clouds-in-the-blue-sky.jpg?s=612x612&w=0&k=20&c=FfO4h6O95ledPU0lKfzmYQt9JULe8ttfZ6xROwpF7tA=");
+    color: #222040;
+  }
+  to {
+    background-image:url("https://cdn.vectorstock.com/i/500p/15/25/rainy-weather-background-vector-1971525.jpg");
+    color: #09090a;
+  }
+}
+.day {
+  font-family:
+    Open Sans,
+    sans-serif;
+  font-size: 2.5em;
+}
+.sun i {
+  font-size: 70px;
+  margin: 45% 0 0;
+}
+.weather-type {
+  font-size: 2em;
+  font-weight: 600;
+}
+.second-div {
+  background-color: #20273100;
+  border-radius: 0 20px 20px 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 470px;
+  min-width: 350px;
+  padding: 2.5% 0 0 2.5%;
+}
+.heading-div2 {
+  color: rgba(240, 248, 255, 0.902);
+  margin: 15px 0;
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.heading-div2,
+.second-div p {
+  font-family: Roboto, sans-serif;
+}
+.second-div p {
+  color: #a09da8;
+  color: rgba(255, 166, 0, 0.849);
+  display: inline;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+.main {
+  background: linear-gradient(90deg, #7bb1cb, #6a65a9, #498e8f);
+  border-radius: 9px;
+  color: #f5f5f5;
+  margin: 25% 10% 0 0;
+  padding: 2%;
+}
+.main:hover {
+  opacity: 0.8;
+  transition: all 0.5s ease-in-out;
+}
+.sunn {
+  animation: rotate 7s linear 0s infinite;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(1turn);
+  }
+}
